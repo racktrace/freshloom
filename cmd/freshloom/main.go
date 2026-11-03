@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	cfgPath := flag.String("config", "freshloom.yaml", "path ke file config")
+	cfgPath := flag.String("config", "freshloom.yaml", "path to the config file")
 	flag.Parse()
 
 	cfg, err := config.Load(*cfgPath)
