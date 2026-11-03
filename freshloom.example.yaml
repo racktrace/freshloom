@@ -1,0 +1,11 @@
+packages:
+  apt:
+    - curl
+    - tmux
+    - htop
+    - jq
+
+git:
+  name: user
+  email: user@example.com
+  default_branch: main
